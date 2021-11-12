@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main {
+    background-color: #000;
+    color: #fff;
+    flex-grow: 1;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.window-tag {
+    justify-content: end;
+}
+
+.window-tag .items {
+    background-color: #4a4a4a;
+    padding: 1px 2px;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.icon::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00a";
+    color: #fff;
+    padding-right: 5px;
+}
+
+.container-users {
+    width: 1500px;
+    margin: 0 auto;
+    padding: 20px 0;
+    /* height: 500px; */
+    
+}
+
+.container-flex {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-users .items {
+    width: calc(100% / 8);
+    height: 110px;
+    background-image: url(../img/paesaggio.jpg);
+    background: cover no-repeat;
+    background-position: 50% 50%;
+    margin: 5px 2px;
+    flex-grow: 1;
+    position: relative;
+}
+
+.user-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #4a4a4a;
+    padding: 1px 2px;
+    border-radius: 5px;
+}
+
+footer {
+    height: 70px;
+    background-color: #222;
+}
