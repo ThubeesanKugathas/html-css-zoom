@@ -6,6 +6,7 @@
 
 .page {
     height: 100vh;
+    color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
@@ -15,7 +16,6 @@
 
 main {
     background-color: #000;
-    color: #fff;
     flex-grow: 1;
 }
 
@@ -80,3 +80,35 @@ footer {
     height: 70px;
     background-color: #222;
 }
+
+footer .container-flex {
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    display: flex;
+}
+
+.nav-center {
+    display: flex;
+}
+
+.nav-right {
+    background-color: #4a4a4a;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+footer .tag {
+    text-align: center;
+}
+
+.text {
+    color: #ca2641;
+    padding: 0 10px;
+}
+
